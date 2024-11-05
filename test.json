@@ -3,7 +3,7 @@
   "widgets": {
     "root": {
       "type": "Container",
-      "color": 16777215, // Arka plan rengi (Beyaz - Hex: 0xFFFFFF)
+      "color": 16777215,
       "child": {
         "type": "Center",
         "child": {
