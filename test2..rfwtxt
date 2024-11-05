@@ -2,7 +2,7 @@
   "imports": ["core.widgets"],
   "widgets": {
     "root": {
-      "type": "Container",
+      "type": "Container", // Rasim
       "color": 16777215,
       "child": {
         "type": "Center",
