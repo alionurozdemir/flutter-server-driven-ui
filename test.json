@@ -1,0 +1,17 @@
+{
+  "imports": ["core.widgets"],
+  "widgets": {
+    "root": {
+      "type": "Container",
+      "color": 16777215, // Arka plan rengi (Beyaz - Hex: 0xFFFFFF)
+      "child": {
+        "type": "Center",
+        "child": {
+          "type": "Text",
+          "text": ["Merhaba, ", {"data": ["greet", "name"]}, "!"],
+          "textDirection": "ltr"
+        }
+      }
+    }
+  }
+}
