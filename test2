@@ -1,0 +1,17 @@
+{
+  "imports": ["core.widgets"],
+  "widgets": {
+    "root": {
+      "type": "Container",
+      "color": 16777215,
+      "child": {
+        "type": "Center",
+        "child": {
+          "type": "Text",
+          "text": ["Merhaba, ", {"data": ["greet", "name"]}, "!"],
+          "textDirection": "ltr"
+        }
+      }
+    }
+  }
+}
